@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#858383"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/padding"
+        android:background="#808080"
+        android:gravity="center"
+        android:text="@string/rubikamp_title"
+        android:padding="@dimen/padding"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:padding="@dimen/padding"
+        android:text="@string/student_1"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/text_size_2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_2"
+        android:textColor="@color/custom_black"
+        android:textSize="@dimen/text_size_2"
+        android:padding="@dimen/padding"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_3"
+        android:textColor="@color/yellow"
+        android:textSize="30sp"
+        android:padding="@dimen/padding"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_4"
+        android:textColor="@color/brown"
+        android:padding="@dimen/padding"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_5"
+        android:textColor="@color/orange"
+        android:textSize="18sp"
+        android:padding="@dimen/padding"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_6"
+        android:textColor="@color/green"
+        android:textSize="34sp"
+        android:padding="@dimen/padding"
+        android:textStyle="normal" />
+
+    <!--this is textview -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:text="@string/student_7"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/text_size_2"
+        android:padding="@dimen/padding"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="@dimen/padding"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/custom_yellow"
+        android:text="@string/login"
+        android:padding="@dimen/padding"
+        android:textSize="20sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

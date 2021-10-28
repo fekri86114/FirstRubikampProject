@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UnsplashRubikamp</string>
+    <string name="rubikamp_title">Rubikamp Android Students</string>
+    <string name="student_1">Hasti Mohamadi</string>
+    <string name="student_2">Reza Bahrami</string>
+    <string name="student_3">MohamadMahdi Marzban</string>
+    <string name="student_4">MohamadReza Fekri</string>
+    <string name="student_5">Kowsar Sourizaee</string>
+    <string name="student_6">Saman Mohamadi</string>
+    <string name="student_7">Alireza MahdiZade</string>
+    <string name="login">LOGIN</string>
+</resources>
