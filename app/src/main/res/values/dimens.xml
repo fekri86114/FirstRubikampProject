@@ -2,4 +2,5 @@
 <resources>
     <dimen name="text_size_2">23sp</dimen>
     <dimen name="padding">7dp</dimen>
+    <dimen name="image_height">200dp</dimen>
 </resources>
